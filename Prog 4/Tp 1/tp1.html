@@ -6,12 +6,25 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Primer pagina en HTML</title>
 </head>
-<body>
+<header>
  <h1>Universidad Champagnat</h1>
  <h2>Facultad de Informatica</h2>
-<img id="1" src="logo.png" alt="">
-<img id="2" src="logo.png" alt="">
-<img id="3" src="logo.png" alt="">
-<img id="4" src="logo.png" alt="">
+</header>
+<style type="text/css">
+  body {
+  background-image: url('FONDO.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+</style>
+<body>
+
+ <div class="container">
+  <img class="corner top-left" src="logo.png" alt="Logo superior izquierdo">
+  <img class="corner top-right" src="logo.png" alt="Logo superior derecho">
+  <img class="corner bottom-left" src="logo.png" alt="Logo inferior izquierdo">
+  <img class="corner bottom-right" src="logo.png" alt="Logo inferior derecho">
+</div>
+
 </body>
 </html>
