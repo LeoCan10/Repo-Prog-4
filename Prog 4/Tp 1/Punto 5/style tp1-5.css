@@ -1,0 +1,172 @@
+body{
+ background-color: blue;
+
+}
+
+h1{
+ text-decoration: underline;
+ color: white;
+ font-size: 45px;
+ text-align: center;
+}
+
+h2{
+ color: white;
+ text-align: left;
+ padding-left: 20px;
+ font-size: 30px;
+}
+
+.Informatica{
+ color: aqua;
+ font-size: 25px;
+}
+
+.Derecho{
+ color: red;
+ font-size: 25px;
+}
+
+.CienciasSociales{
+ color: violet;
+ font-size: 25px;
+}
+
+.CienciasEconomicas{
+ color: chocolate;
+ font-size: 25px;
+}
+
+a{
+ text-decoration: none;
+}
+
+.div1{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: red;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid
+}
+
+.div2{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: red;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.div3{
+ color: black;
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: aqua;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid
+}
+
+.div4{
+ text: black;
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: aqua;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.div5{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: violet;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid
+}
+
+.div6{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: violet;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.div7{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: chocolate;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid
+}
+
+.div8{
+ text-align: center;
+ font-size: 20px;
+ box-shadow: 10;
+ background-color: chocolate;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sec1{
+ box-shadow: 25px;
+ background-color: white;
+ padding: 20px;
+ margin: 20px;
+ border-radius: 5px solid;
+}
+
+
+.sec2{
+ box-shadow: 25px;
+ background-color: white;
+ padding: 20px;
+ margin: 20px;
+ border-radius: 5cm solid;
+}
+
+
+.sec3{
+ box-shadow: 25px;
+ background-color: white;
+ padding: 20px;
+ margin: 20px;
+ border-radius: 5px solid;
+}
+
+
+.sec4{
+ box-shadow: 25px;
+ background-color: white;
+ padding: 20px;
+ margin: 20px;
+ border-radius: 5px solid;
+}
+
