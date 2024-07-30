@@ -1,0 +1,13 @@
+body{
+  background-color: blue;
+}
+
+h1{
+ text-align: center;
+}
+
+img{
+ right: 0;
+ left: 0;
+ width: 50;
+}
