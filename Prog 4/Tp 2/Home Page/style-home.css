@@ -1,34 +1,45 @@
-.corner{
- position:absolute;
+.corner {
+ position: absolute;
  width: 100px;
  height: 100px;
 }
 
-
-.top-left{
+.top-left {
  top: 0;
  left: 0;
 }
 
-.top-right{
+.top-right {
  top: 0;
  right: 0;
 }
 
-h1{
+h1 {
  font: modern;
  text-align: center;
 }
 
-h2{
+h2 {
  text-align: center;
 }
 
-div{
- position: absolute;
- top: 55%;
- left: 50%;
- transform: translate(-50%, -50%);
+.Tabla {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  background-color: white;
+}
 
+.Img {
+ align-self: center; /* Centra la imagen verticalmente */
+ margin-top: 20px; /* Espacio entre el encabezado y la imagen */
+}
+
+.button {
+ background-color: #4CAF50; /* Ejemplo */
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
 }
