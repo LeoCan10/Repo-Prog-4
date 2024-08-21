@@ -1,45 +1,45 @@
+body {
+ background-color: blue;
+}
+header {
+ text-align: center;
+ padding: 0px; /* Asegúrate de que el valor de padding esté en píxeles */
+}
+a{
+ display: inline-block;
+ margin: 0 auto;
+ width: 20px !important;
+ height: 20px !important;
+}
 .corner {
  position: absolute;
  width: 100px;
  height: 100px;
 }
-
 .top-left {
  top: 0;
  left: 0;
 }
-
 .top-right {
  top: 0;
  right: 0;
 }
-
 h1 {
- font: modern;
+ font-family: modern;
  text-align: center;
 }
-
 h2 {
  text-align: center;
 }
-
 .Tabla {
  display: flex;
  flex-direction: column;
  align-items: center;
  background-color: white;
 }
-
-.Img {
- align-self: center; /* Centra la imagen verticalmente */
- margin-top: 20px; /* Espacio entre el encabezado y la imagen */
-}
-
-.button {
- background-color: #4CAF50; /* Ejemplo */
- color: white;
- padding: 15px 32px;
+section {
+ display: block;
+ align-items: center;
  text-align: center;
- text-decoration: none;
- display: inline-block;
+ padding: 100px; /* Asegúrate de que el valor de padding esté en píxeles */
 }
