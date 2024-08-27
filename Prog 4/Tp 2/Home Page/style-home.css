@@ -31,7 +31,7 @@ h1 {
 h2 {
  text-align: center;
 }
-.Tabla {
+.Tabla{
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -52,9 +52,43 @@ h2{
  color: white;
 }
 
-.plan{
+.Plan{
  text-align: center;
  font-size: 25px;
  color: white;
  text-decoration: none;
+}
+
+.S-plan{
+ display: flex;
+ justify-content: center;
+}
+
+.Div-plan{
+ border-radius: 5px;
+ background-color: black;
+}
+
+.Div-titulos{
+ border: 3px solid white;
+ box-shadow:  0 0 25px black;
+ backdrop-filter: blur(10px);
+ padding: 20px;
+}
+
+.materia{
+ text-align: start;
+ justify-content: flex-start;
+}
+
+.Div-materia{
+ border: 4px solid white;
+ box-shadow: 0 0 10px black;
+ padding: 10px;
+}
+
+p{
+ font-size: 25px !important;
+ color: white !important;
+ justify-items: auto;
 }
