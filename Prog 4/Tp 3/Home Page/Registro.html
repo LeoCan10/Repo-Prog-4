@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style-home.css">
+ <title>Universidad Champagnat - Facultad de Informática</title>
+</head>
+<style>
+ body{
+  background-color: blue;
+ }
+ section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+</style>
+<header>
+ <a class="home-button" href="Tp 3.html"><img src="home-button.jpg" alt="home-button"></a>
+</header>
+<body>
+ <img class="corner top-left" src="logo.png" alt="">
+ <img class="corner top-right" src="logo.png" alt="">
+ <section>
+  <div class="Div-titulos">
+        <h1><b><u>Universidad Champagnat</u></b></h1><b>
+        <h2><i>Facultad de Informática</i></h2>
+        <h2>Formulario de Registro</h2>
+  </div>
+  <br><br>
+  <div id="form">
+   <table>
+     <tr>
+      <td> <form>
+       <input type="text" placeholder="Nombre Completo" maxlength="20">
+       <input type="text" placeholder="Direccion" maxlength="30">
+       <input type="number" placeholder="Telefono">
+      </form>
+     </td>
+     </tr>
+     <tr>
+      <td>
+       <input type="date" placeholder="Fecha Nacimiento">
+       <input type="email" placeholder="Ingresar Correo">
+       <input class="gender" type="radio" name="gender" value="hombre"> Hombre
+       <input class="gender" type="radio" name="gender" value="mujer"> Mujer<br>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <textarea id="coments" placeholder="Comentarios" maxlength="20px"></textarea>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <input type="password" placeholder="Ingrese Contrasena">
+       <input type="password" placeholder="Reingresar Contrasena">
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <input type="submit" placeholder="Enviar Formulario">
+      </td>
+     </tr>
+   </table>
+  </div>
+
+ </section>
+</body>
+</html>
